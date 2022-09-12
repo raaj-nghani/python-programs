@@ -1,0 +1,13 @@
+f=open("student_slip.txt","a")
+print("Enter Student's detail")
+name = input("Name : ")
+clas = input("Class : ")
+sec = input("Section : ")
+addr = input("Address : ")
+f.write(name)
+print()
+f.write(clas)
+f.write(sec)
+f.write(addr)
+
+f.close()
